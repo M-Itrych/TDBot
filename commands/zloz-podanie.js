@@ -18,7 +18,7 @@ const loadConfig = () => {
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('zloz_podanie')
-        .setDescription('Złóż podanie o przyjęcie do SD'),
+        .setDescription('Złóż podanie o przyjęcie do TD'),
 
     async execute(interaction) {
         const guildId = interaction.guild.id;
